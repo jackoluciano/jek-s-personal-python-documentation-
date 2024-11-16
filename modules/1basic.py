@@ -42,6 +42,7 @@ print(sisa_duit)
 # calculating volume of triangle pyramid and ball volume
 # triangle pyramid
 
+# math adalah library bawaan python untuk mengimpor fungsi-fungsi matematika, jadi tidak diperlukan external installation
 import math
 
 length= float(input("type in the length of your triangle pyramid: "))
