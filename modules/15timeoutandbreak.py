@@ -1,5 +1,7 @@
 # --------- chapter 12: Algoritma Timeout menggunakan library Threading -------------------
 # fungsi Thread dapat menjalankan 2 aktivitas secara bersamaan dalam suaru sistem, contoh meminta user input dan menjalankan timer
+
+# library threading adalah library bawaan python, jadi tidak perlu install
 import threading    
 
 while True:
