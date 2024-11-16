@@ -2,6 +2,9 @@
 # scrap data dari website latihan
 
 # impor library 
+# requests BUKAN library bawaan python, untuk instalasi jalankan ` pip install requests ` di terminal
+# BeautifulSoup4 BUKAN library bawaan python, untuk instalasi jalankan ` pip install BeautifulSoup4 ` di terminal
+
 import requests # request untuk berinteraksi dengan API
 from bs4 import BeautifulSoup # BeautifulSoup untuk parsing data, dalam hal ini properti html
 
