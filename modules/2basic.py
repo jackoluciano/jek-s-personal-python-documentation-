@@ -6,6 +6,7 @@
 # must include at least 1 digit
 # must include at least 1 symbol
 
+# string adalah library bawaan python, jadi tidak diperlukan external installation
 import string
 
 username= input("enter ur username: ")
