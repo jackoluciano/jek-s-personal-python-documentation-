@@ -1,6 +1,7 @@
 # Program untuk bermain gunting batu kertas melawan python
 
 # mengimpor library random
+# random adalah library bawaan python, jadi tidak diperlukan external installation
 
 import random
 
