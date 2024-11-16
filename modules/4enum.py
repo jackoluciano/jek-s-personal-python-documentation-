@@ -1,6 +1,7 @@
 # --------- chapter 9: enum library --------------
 
 # enum: singkatan dari enumeration
+# enum adalah library bawaan python, jadi tidak diperlukan external installation
 # nilai atau nama dapat diakses dengan class.(name).name atau class.(name).value
 
 from enum import Enum
