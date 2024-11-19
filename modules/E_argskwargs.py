@@ -65,5 +65,5 @@ def notif3(comment, comment2, **harga):
     for order in harga:
         print(order, ":", harga[order])
 
-dictionary={"comment":"halo bangsat", "comment2":"orderan kamu adalah", "sosigg": "10k", "borgir" : "20k", "pitzah" : "30k"}
+dictionary={"comment":"halo banh", "comment2":"orderan kamu adalah", "sosigg": "10k", "borgir" : "20k", "pitzah" : "30k"}
 notif3(**dictionary)
