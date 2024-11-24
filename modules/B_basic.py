@@ -9,27 +9,33 @@
 # string adalah library bawaan python, jadi tidak diperlukan external installation
 import string
 
-username= input("enter ur username: ")
+keluar = False
 
-if 6 < len(username) < 12:
-    print("ur username contains 6-12 characters")
-else:
-    print("ur username DOES NOT contain 6-12 characters")
+while keluar == False:
+    username= input("enter ur username: ")
 
-checkdigit= any(char.isdigit() for char in username)
+    if 6 <= len(username) <= 12:
+        print("ur username contains 6-12 characters")
+    else:
+        print("ur username DOES NOT contain 6-12 characters")
 
-if checkdigit:
-    print("ur username contains digit")
-else:
-    print("ur username DOES NOT contain digit")
+    checkdigit= any(char.isdigit() for char in username)
 
-checksymbol= any(char in string.punctuation for char in username)
+    if checkdigit:
+        print("ur username contains digit")
+    else:
+        print("ur username DOES NOT contain digit")
 
-if checksymbol:
-    print("ur username contains symbol")
-else:
-    print("ur username DOES NOT contain symbol")
+    checksymbol= any(char in string.punctuation for char in username)
 
+    if checksymbol:
+        print("ur username contains symbol")
+    else:
+        print("ur username DOES NOT contain symbol")
+
+    if checkdigit and checksymbol and 6 < len(username) < 12:
+        print(f"ur new username is {username}")
+        keluar = True
 
 
 
